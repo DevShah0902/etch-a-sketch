@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#container{
+    border:solid,1px;
+    width: 960px;
+    height:960px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+}
+
+.box{
+    border:solid,black,1px;
+    width: calc(100%/var(--gridSize));
+    height: calc(100%/var(--gridSize));
+    
+}
