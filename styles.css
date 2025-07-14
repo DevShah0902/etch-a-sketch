@@ -6,15 +6,34 @@
 
 body{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-color: blanchedalmond;
 }
 
+button{
+    color:blueviolet;
+    background-color:azure;
+    height:100px;
+    width:300px;
+    font-size: 48px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    margin: 20px;
+}
+
+button:hover{
+    transition-duration: .2s;
+    width:310px;
+    height:100px;
+    background-color:gainsboro;
+}
+
 #container{
     border:solid,1px;
-    width: 960px;
-    height:960px;
+    width: 800px;
+    height:800px;
     display:flex;
     flex-wrap: wrap;
     align-items:stretch;
